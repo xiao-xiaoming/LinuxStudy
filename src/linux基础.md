@@ -30,7 +30,7 @@
 
 ## 操作系统的发展
 
-![img](imgs/01-linux基础-5.gif)
+![img](imgs/unix发展.gif)
 
 ![img](imgs/01-linux基础-6.png)
 
