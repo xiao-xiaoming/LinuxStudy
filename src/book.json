@@ -1,0 +1,65 @@
+{
+	"plugins": [
+		"code",
+		"github",
+		"anchor-navigation-ex",
+		"-lunr",
+		"-search",
+		"search-pro",
+		"splitter",
+		"insert-logo",
+		"custom-favicon",
+		"-sharing",
+		"sharing-plus",
+		"page-footer-ex",
+		"popup"
+	],
+	"pluginsConfig": {
+		"github": {
+			"url": "https://github.com/xiao-xiaoming/LinuxStudy"
+		},
+		"insert-logo": {
+			"url": "imgs/logo.ico",
+			"style": "background: none; max-height: 30px; min-height: 30px"
+		},
+		"favicon": "imgs/logo.ico",
+		"fontsettings": {
+			"size": 1
+		},
+		"pdf": {
+			"pageNumbers": true,
+			"fontSize": 18,
+			"paperSize": "a5"
+		},
+		"sharing": {
+		  "douban": false,
+		  "facebook": false,
+		  "google": false,
+		  "hatenaBookmark": false,
+		  "instapaper": false,
+		  "line": false,
+		  "linkedin": false,
+		  "messenger": false,
+		  "pocket": false,
+		  "qq": true,
+		  "qzone": true,
+		  "stumbleupon": false,
+		  "twitter": false,
+		  "viber": false,
+		  "vk": false,
+		  "weibo": true,
+		  "whatsapp": false,
+		  "all": [
+			  "facebook", "google", "twitter",
+			  "weibo", "qq", "linkedin",
+			  "qzone", "douban"
+		  ]
+		},
+		"page-footer-ex": {
+			"copyright": "Copyright &copy [xiao-xiaoming](https://github.com/xiao-xiaoming/LinuxStudy) 2019  ",
+			"markdown":true,
+			"update_label": "** 文件修订时间： **",
+			"update_format": "  YYYY-MM-DD  "
+		}
+	}
+}
